@@ -13,9 +13,9 @@ List* createList() {
     return list;
 }
 
-Node* createNode() {
+Node* createNode(int key) {
     Node* node = (Node*)malloc(sizeof(Node));
-    node->key = 0;
+    node->key = key;
     node->next = NULL;
     node->previous = NULL;
     return node;
@@ -56,7 +56,7 @@ Node* search(List* list, int key)
         return NULL;
     Node* tmp = list->head;
     for (; tmp; tmp = tmp->next)
-        if (tmp->key != key) return tmp;
+        if (tmp->key == key) return tmp;
     return NULL;
 }
 
@@ -79,7 +79,7 @@ Node* maximum(List* list)
         return NULL;
     Node* tmp = list->head->next;
     Node* max = tmp;
-    for (; tmp; tmp = tmp->previous)
+    for (; tmp; tmp = tmp->next)
         if (max->key < tmp->key) max = tmp;
     return max;
 }
@@ -90,7 +90,7 @@ Node* minimum(List* list)
         return NULL;
     Node* tmp = list->head->next;
     Node* min = tmp;
-    for (; tmp; tmp = tmp->previous)
+    for (; tmp; tmp = tmp->next)
         if (min->key > tmp->key) min = tmp;
     return min;
 }
@@ -99,20 +99,30 @@ Node* successor(List* list, Node* node)
 {
     if (list == NULL && node == NULL)
         return NULL;
-    Node* tmp = node->next;
-    for (; tmp; tmp = tmp->next)
-        if (tmp->key > node->key)  return tmp;
-    return NULL;
+    Node* tmp = list->head;
+    Node* found = NULL;
+    for (; tmp; tmp = tmp->next){
+        if (tmp->key > node->key) {
+            if (found == NULL || (found->key > tmp->key))
+                found = tmp;
+        }
+    }
+    return found;
 }
 
 Node* predecessor(List* list, Node* node)
 {
     if (list == NULL && node == NULL)
         return NULL;
-    Node* tmp = node->next;
-    for (; tmp; tmp = tmp->next)
-        if (tmp->key < node->key) return tmp;
-    return NULL;
+    Node* tmp = list->head;
+    Node* found = NULL;
+    for (; tmp; tmp = tmp->next){
+        if (tmp->key < node->key) {
+            if (found == NULL || (found->key < tmp->key))
+                found = tmp;
+        }
+    }
+    return found;
 }
 
 int deleteList(List* list) {

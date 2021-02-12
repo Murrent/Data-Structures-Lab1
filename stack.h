@@ -5,4 +5,8 @@
 #ifndef LAB1_ALGORITHM_STACK_H
 #define LAB1_ALGORITHM_STACK_H
 
+int StackEmpty(List* list);
+int Push(List* list, int Key);
+int Pop(List* list);
+
 #endif //LAB1_ALGORITHM_STACK_H

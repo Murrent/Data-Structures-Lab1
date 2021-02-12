@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c
-list.h
-C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
-stdlib.h
--
-stdio.h
--
-
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
 
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/main.c
@@ -22,7 +14,15 @@ stdio.h
 list.h
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
 
-C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.c
-
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.c
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+stack.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.h
+stdlib.h
+-
+stdio.h
+-
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.h
 

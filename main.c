@@ -2,27 +2,42 @@
 #include "list.h"
 
 int main() {
-    List* list = createList();
-    Node* node1 = createNode();
-    Node* node2 = createNode();
-    Node* node3 = createNode();
-    Node* node4 = createNode();
-    Node* node5 = createNode();
-    node1->key = 32;
-    node2->key = 15;
-    node3->key = 13;
-    node4->key = 16;
-    node5->key = 18;
-    insert(list, node1);
-    insert(list, node2);
-    insert(list, node3);
-    insert(list, node4);
-    insert(list, node5);
+    List* list1 = createList();
+    insert(list1, createNode(7));
+    insert(list1, createNode(8));
+    insert(list1, createNode(10));
+    insert(list1, createNode(5));
+    insert(list1, createNode(1));
+    insert(list1, createNode(3));
 
-    printList(list);
-    printf("%d\n", successor(list, node4)->key);
-    printf("%d", predecessor(list, node4)->key);
-    deleteList(list);
+    List* list2 = createList();
+    insert(list2, createNode(2));
+    insert(list2, createNode(1));
+    insert(list2, createNode(6));
+    insert(list2, createNode(9));
+    insert(list2, createNode(2));
+    insert(list2, createNode(5));
+
+    printf("List 1\n");
+    printList(list1);
+    printf("List 2\n");
+    printList(list2);
+
+    printf("Maxmimum 1 %d\n", maximum(list1)->key);
+    printf("Minimum 1 %d\n", minimum(list1)->key);
+    printf("Maxmimum 2 %d\n", maximum(list2)->key);
+    printf("Minimum 2 %d\n", minimum(list2)->key);
+
+    printf("successor 1 %d\n", successor(list1, search(list1, 5))->key);
+    printf("successor 2 %p\n", successor(list2, search(list2, 9)));
+    printf("predecessor 1 %d\n", predecessor(list1, search(list1, 5))->key);
+    printf("predecessor 2 %d\n", predecessor(list2, search(list2, 9))->key);
+
+    printf("predecessor max 1 %d\n", predecessor(list1, maximum(list1))->key);
+    printf("predecessor max 2 %d\n", predecessor(list2, maximum(list2))->key);
+
+    deleteList(list1);
+    deleteList(list2);
     return 0;
 }
 

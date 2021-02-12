@@ -19,7 +19,7 @@ typedef struct list_
 }List;
 
 List* createList();
-Node* createNode();
+Node* createNode(int key);
 int printList(List* list);
 int isEmpty(List* list);
 int insert(List* list, Node* node);
