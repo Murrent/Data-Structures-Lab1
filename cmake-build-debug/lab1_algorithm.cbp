@@ -87,6 +87,18 @@
 		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/main.c">
 			<Option target="lab1_algorithm"/>
 		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.c">
+			<Option target="lab1_algorithm"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.h">
+			<Option target="lab1_algorithm"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.c">
+			<Option target="lab1_algorithm"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.h">
+			<Option target="lab1_algorithm"/>
+		</Unit>
 		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

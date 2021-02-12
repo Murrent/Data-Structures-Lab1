@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/lab1_algorithm.dir/list.c.obj"
   "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/main.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/lab1_algorithm.dir/main.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/lab1_algorithm.dir/queue.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/lab1_algorithm.dir/stack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

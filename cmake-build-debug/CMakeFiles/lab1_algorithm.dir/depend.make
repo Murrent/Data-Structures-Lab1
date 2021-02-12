@@ -7,3 +7,7 @@ CMakeFiles/lab1_algorithm.dir/list.c.obj: ../list.h
 CMakeFiles/lab1_algorithm.dir/main.c.obj: ../list.h
 CMakeFiles/lab1_algorithm.dir/main.c.obj: ../main.c
 
+CMakeFiles/lab1_algorithm.dir/queue.c.obj: ../queue.c
+
+CMakeFiles/lab1_algorithm.dir/stack.c.obj: ../stack.c
+

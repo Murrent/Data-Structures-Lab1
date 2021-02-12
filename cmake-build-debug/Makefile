@@ -196,6 +196,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/main.c.s
 .PHONY : main.c.s
 
+queue.obj: queue.c.obj
+
+.PHONY : queue.obj
+
+# target to build an object file
+queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.obj
+.PHONY : queue.c.obj
+
+queue.i: queue.c.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.i
+.PHONY : queue.c.i
+
+queue.s: queue.c.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.s
+.PHONY : queue.c.s
+
+stack.obj: stack.c.obj
+
+.PHONY : stack.obj
+
+# target to build an object file
+stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.obj
+.PHONY : stack.c.obj
+
+stack.i: stack.c.i
+
+.PHONY : stack.i
+
+# target to preprocess a source file
+stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.i
+.PHONY : stack.c.i
+
+stack.s: stack.c.s
+
+.PHONY : stack.s
+
+# target to generate assembly for a file
+stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.s
+.PHONY : stack.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -211,6 +265,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... queue.obj
+	@echo ... queue.i
+	@echo ... queue.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
 .PHONY : help
 
 

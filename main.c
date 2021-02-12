@@ -22,6 +22,7 @@ int main() {
     printList(list);
     printf("%d\n", successor(list, node4)->key);
     printf("%d", predecessor(list, node4)->key);
+    deleteList(list);
     return 0;
 }
 

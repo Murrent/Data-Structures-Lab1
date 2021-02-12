@@ -15,7 +15,7 @@ List* createList() {
 
 Node* createNode() {
     Node* node = (Node*)malloc(sizeof(Node));
-    node->key = -1;
+    node->key = 0;
     node->next = NULL;
     node->previous = NULL;
     return node;
@@ -55,7 +55,7 @@ Node* search(List* list, int key)
     if (list == NULL)
         return NULL;
     Node* tmp = list->head;
-    for (; tmp; tmp = tmp->previous)
+    for (; tmp; tmp = tmp->next)
         if (tmp->key != key) return tmp;
     return NULL;
 }
@@ -113,4 +113,23 @@ Node* predecessor(List* list, Node* node)
     for (; tmp; tmp = tmp->next)
         if (tmp->key < node->key) return tmp;
     return NULL;
+}
+
+int deleteList(List* list) {
+    if (list == NULL) return 0;
+    Node* tmp = list->head;
+    Node* toFree = NULL;
+    for (; tmp;){
+        toFree = tmp;
+        tmp = tmp->next;
+        free(toFree);
+    }
+    free(list);
+    return 1;
+}
+
+int deleteNode(Node* node) {
+    if (node == NULL) return 0;
+    free(node);
+    return 1;
 }

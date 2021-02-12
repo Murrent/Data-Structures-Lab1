@@ -29,5 +29,7 @@ Node* maximum(List* list);
 Node* minimum(List* list);
 Node* successor(List* list, Node* node);
 Node* predecessor(List* list, Node* node);
+int deleteList(List* list);
+int deleteNode(Node* node);
 
 #endif //LAB1_ALGORITHM_LIST_H
