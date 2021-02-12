@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "list.h"
+#include "stack.h"
 
 int main() {
     List* list1 = createList();
@@ -35,6 +36,12 @@ int main() {
 
     printf("predecessor max 1 %d\n", predecessor(list1, maximum(list1))->key);
     printf("predecessor max 2 %d\n", predecessor(list2, maximum(list2))->key);
+
+    Stack* stack = createStack();
+    push(stack, 3);
+    push(stack, 6);
+    push(stack, 1);
+    printStack(stack);
 
     deleteList(list1);
     deleteList(list2);

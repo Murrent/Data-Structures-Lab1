@@ -21,6 +21,7 @@ typedef struct list_
 List* createList();
 Node* createNode(int key);
 int printList(List* list);
+int printListBackwards(List* list);
 int isEmpty(List* list);
 int insert(List* list, Node* node);
 Node* search(List* list, int key);
