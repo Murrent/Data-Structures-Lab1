@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Martin\CLionProjects\lab1_algorithm
+CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\GitHub\Lab1SM_Clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab1_algorithm.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/lab1_algorithm.dir/flags.make
 
 CMakeFiles/lab1_algorithm.dir/main.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
 CMakeFiles/lab1_algorithm.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab1_algorithm.dir/main.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\main.c.obj   -c C:\Users\Martin\CLionProjects\lab1_algorithm\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab1_algorithm.dir/main.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\main.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\main.c
 
 CMakeFiles/lab1_algorithm.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/main.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\CLionProjects\lab1_algorithm\main.c > CMakeFiles\lab1_algorithm.dir\main.c.i
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\main.c > CMakeFiles\lab1_algorithm.dir\main.c.i
 
 CMakeFiles/lab1_algorithm.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/main.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\CLionProjects\lab1_algorithm\main.c -o CMakeFiles\lab1_algorithm.dir\main.c.s
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\main.c -o CMakeFiles\lab1_algorithm.dir\main.c.s
 
 CMakeFiles/lab1_algorithm.dir/list.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
 CMakeFiles/lab1_algorithm.dir/list.c.obj: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab1_algorithm.dir/list.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\list.c.obj   -c C:\Users\Martin\CLionProjects\lab1_algorithm\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab1_algorithm.dir/list.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c
 
 CMakeFiles/lab1_algorithm.dir/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/list.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\CLionProjects\lab1_algorithm\list.c > CMakeFiles\lab1_algorithm.dir\list.c.i
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c > CMakeFiles\lab1_algorithm.dir\list.c.i
 
 CMakeFiles/lab1_algorithm.dir/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/list.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\CLionProjects\lab1_algorithm\list.c -o CMakeFiles\lab1_algorithm.dir\list.c.s
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c -o CMakeFiles\lab1_algorithm.dir\list.c.s
 
 # Object files for target lab1_algorithm
 lab1_algorithm_OBJECTS = \
@@ -116,7 +116,7 @@ lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/build.make
 lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/linklibs.rsp
 lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/objects1.rsp
 lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable lab1_algorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable lab1_algorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab1_algorithm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/lab1_algorithm.dir/clean:
 .PHONY : CMakeFiles/lab1_algorithm.dir/clean
 
 CMakeFiles/lab1_algorithm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Martin\CLionProjects\lab1_algorithm C:\Users\Martin\CLionProjects\lab1_algorithm C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug C:\Users\Martin\CLionProjects\lab1_algorithm\cmake-build-debug\CMakeFiles\lab1_algorithm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Martin\Documents\GitHub\Lab1SM_Clion C:\Users\Martin\Documents\GitHub\Lab1SM_Clion C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles\lab1_algorithm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab1_algorithm.dir/depend
 

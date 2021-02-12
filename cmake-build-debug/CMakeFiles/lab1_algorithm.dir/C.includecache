@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Martin/CLionProjects/lab1_algorithm/list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+stdlib.h
+-
+stdio.h
+-
 
-C:/Users/Martin/CLionProjects/lab1_algorithm/main.c
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/main.c
 stdio.h
 -
 list.h
-C:/Users/Martin/CLionProjects/lab1_algorithm/list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
 
