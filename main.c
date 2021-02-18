@@ -41,6 +41,7 @@ int main() {
     push(stack, 3);
     push(stack, 6);
     push(stack, 1);
+    pop(stack);
     printStack(stack);
 
     deleteList(list1);
