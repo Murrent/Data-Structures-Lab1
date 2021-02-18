@@ -25,8 +25,7 @@ int printList(List* list) {
     if (list == NULL || isEmpty(list)) return 0;
     Node* node = list->head;
     for (; node; node = node->next)
-        printf("prev %p - self %p - %d - next %p\n",
-               node->previous, node, node->key, node->next);
+        printf("%d\n", node->key);
     return 1;
 }
 
@@ -34,8 +33,7 @@ int printListBackwards(List* list) {
     if (list == NULL || isEmpty(list)) return 0;
     Node* node = list->tail;
     for (; node; node = node->previous)
-        printf("prev %p - self %p - %d - next %p\n",
-               node->previous, node, node->key, node->next);
+        printf("%d\n", node->key);
     return 1;
 }
 
