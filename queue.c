@@ -29,7 +29,7 @@ int enqueue(Queue* queue, int key) {
 }
 
 int dequeue(Queue* queue) {
-    if (queue == NULL || queue->head == NULL) return 0;
+    if (queue == NULL) return 0;
     Node* tmp = delete(queue->list, queue->head);
     deleteNode(tmp);
     queue->head = queue->list->tail;
