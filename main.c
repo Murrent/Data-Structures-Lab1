@@ -3,16 +3,81 @@
 #include "stack.h"
 #include "queue.h"
 
-int printKey(Node* node) {
-    if (node == NULL) {
-        printf("NULL\n");
-        return 0;
-    }
-    printf("key: %d\n", node->key);
-    return 1;
+// MAXIMUM TESTS
+void maximumTest1(List* list) {
+    if (list == NULL || maximum(list) == NULL || maximum(list)->key != 10)
+        printf("maximum test failed\n");
+    else
+        printf("maximum test succeeded\n");
 }
 
-int main() {
+void maximumTest2(List* list) {
+    if (list == NULL || maximum(list) == NULL || maximum(list)->key != 9)
+        printf("maximum test failed\n");
+    else
+        printf("maximum test succeeded\n");
+}
+
+// MINIMUM TESTS
+void minimumTest1(List* list) {
+    if (list == NULL || minimum(list) == NULL || minimum(list)->key != 1)
+        printf("minimum test failed\n");
+    else
+        printf("minimum test succeeded\n");
+}
+
+void minimumTest2(List* list) {
+    if (list == NULL || minimum(list) == NULL || minimum(list)->key != 1)
+        printf("minimum test failed\n");
+    else
+        printf("minimum test succeeded\n");
+}
+
+// SUCCESSOR TESTS
+void successorTest1(List* list) {
+    if (list == NULL || successor(list, search(list, 5)) == NULL)
+        printf("successor test failed\n");
+    else if (successor(list, search(list, 5))->key == 7)
+        printf("successor test succeeded\n");
+}
+
+void successorTest2(List* list) {
+    if (list == NULL || successor(list, search(list, 9)) != NULL)
+        printf("successor test failed\n");
+    else
+        printf("successor test succeeded\n");
+}
+
+// PREDECESSOR TESTS
+void predecessorTest1(List* list) {
+    if (list == NULL || predecessor(list, search(list, 5)) == NULL)
+        printf("predecessor test failed\n");
+    else if (predecessor(list, search(list, 5))->key == 3)
+        printf("predecessor test succeeded\n");
+}
+
+void predecessorTest2(List* list) {
+    if (list == NULL || predecessor(list, search(list, 9)) == NULL)
+        printf("predecessor test failed\n");
+    else if (predecessor(list, search(list, 9))->key == 6)
+        printf("predecessor test succeeded\n");
+}
+
+void predecessorTest3(List* list) {
+    if (list == NULL || predecessor(list, maximum(list)) == NULL)
+        printf("predecessor test failed\n");
+    else if (predecessor(list, maximum(list))->key == 8)
+        printf("predecessor test succeeded\n");
+}
+
+void predecessorTest4(List* list) {
+    if (list == NULL || predecessor(list, maximum(list)) == NULL)
+        printf("predecessor test failed\n");
+    else if (predecessor(list, maximum(list))->key == 6)
+        printf("predecessor test succeeded\n");
+}
+
+void testList() {
     List* list1 = createList();
     insert(list1, createNode(7));
     insert(list1, createNode(8));
@@ -29,34 +94,30 @@ int main() {
     insert(list2, createNode(2));
     insert(list2, createNode(5));
 
+
     printf("List 1\n");
     printList(list1);
     printf("List 2\n");
     printList(list2);
 
-    printf("Maxmimum 1 ");
-    printKey(maximum(list1));
-    printf("Minimum 1 ");
-    printKey(minimum(list1));
-    printf("Maxmimum 2 ");
-    printKey(maximum(list2));
-    printf("Minimum 2 ");
-    printKey(minimum(list2));
+    maximumTest1(list1);
+    minimumTest1(list1);
+    maximumTest2(list2);
+    minimumTest2(list2);
 
-    printf("successor 1 ");
-    printKey(successor(list1, search(list1, 5)));
-    printf("successor 2 ");
-    printKey(successor(list2, search(list2, 9)));
-    printf("predecessor 1 ");
-    printKey(predecessor(list1, search(list1, 5)));
-    printf("predecessor 2 ");
-    printKey(predecessor(list2, search(list2, 9)));
+    successorTest1(list1);
+    successorTest2(list2);
 
-    printf("predecessor max 1 ");
-    printKey(predecessor(list1, maximum(list1)));
-    printf("predecessor max 2 ");
-    printKey(predecessor(list2, maximum(list2)));
+    predecessorTest1(list1);
+    predecessorTest2(list2);
+    predecessorTest3(list1);
+    predecessorTest4(list2);
 
+    freeList(list1);
+    freeList(list2);
+}
+
+void testStack() {
     printf("Stack\n");
     Stack* stack = createStack();
     push(stack, 2);
@@ -69,6 +130,10 @@ int main() {
     push(stack, 2);
     printStack(stack);
 
+    freeStack(stack);
+}
+
+void testQueue() {
     printf("Queue\n");
     Queue* queue = createQueue();
     enqueue(queue, 2);
@@ -82,9 +147,12 @@ int main() {
     printQueue(queue);
 
     freeQueue(queue);
-    freeStack(stack);
-    freeList(list1);
-    freeList(list2);
+}
+
+int main() {
+    testList();
+    testStack();
+    testQueue();
     return 0;
 }
 
