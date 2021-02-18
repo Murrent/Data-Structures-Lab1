@@ -3,6 +3,15 @@
 #include "stack.h"
 #include "queue.h"
 
+int printKey(Node* node) {
+    if (node == NULL) {
+        printf("NULL\n");
+        return 0;
+    }
+    printf("key: %d\n", node->key);
+    return 1;
+}
+
 int main() {
     List* list1 = createList();
     insert(list1, createNode(7));
@@ -25,19 +34,30 @@ int main() {
     printf("List 2\n");
     printList(list2);
 
-    printf("Maxmimum 1 %d\n", maximum(list1)->key);
-    printf("Minimum 1 %d\n", minimum(list1)->key);
-    printf("Maxmimum 2 %d\n", maximum(list2)->key);
-    printf("Minimum 2 %d\n", minimum(list2)->key);
+    printf("Maxmimum 1 ");
+    printKey(maximum(list1));
+    printf("Minimum 1 ");
+    printKey(minimum(list1));
+    printf("Maxmimum 2 ");
+    printKey(maximum(list2));
+    printf("Minimum 2 ");
+    printKey(minimum(list2));
 
-    printf("successor 1 %d\n", successor(list1, search(list1, 5))->key);
-    printf("successor 2 %p\n", successor(list2, search(list2, 9)));
-    printf("predecessor 1 %d\n", predecessor(list1, search(list1, 5))->key);
-    printf("predecessor 2 %d\n", predecessor(list2, search(list2, 9))->key);
+    printf("successor 1 ");
+    printKey(successor(list1, search(list1, 5)));
+    printf("successor 2 ");
+    printKey(successor(list2, search(list2, 9)));
+    printf("predecessor 1 ");
+    printKey(predecessor(list1, search(list1, 5)));
+    printf("predecessor 2 ");
+    printKey(predecessor(list2, search(list2, 9)));
 
-    printf("predecessor max 1 %d\n", predecessor(list1, maximum(list1))->key);
-    printf("predecessor max 2 %d\n", predecessor(list2, maximum(list2))->key);
+    printf("predecessor max 1 ");
+    printKey(predecessor(list1, maximum(list1)));
+    printf("predecessor max 2 ");
+    printKey(predecessor(list2, maximum(list2)));
 
+    printf("Stack\n");
     Stack* stack = createStack();
     push(stack, 2);
     push(stack, 0);
@@ -49,8 +69,7 @@ int main() {
     push(stack, 2);
     printStack(stack);
 
-    printf("\n");
-
+    printf("Queue\n");
     Queue* queue = createQueue();
     enqueue(queue, 2);
     enqueue(queue, 0);

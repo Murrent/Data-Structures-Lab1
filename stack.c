@@ -19,8 +19,7 @@ int stackEmpty(Stack* stack) {
 
 int push(Stack* stack, int key) {
     if (stack == NULL) return 0;
-    Node* node = createNode(key);
-    insert(stack->list, node);
+    insert(stack->list, createNode(key));
     stack->top++;
     return 1;
 }
@@ -35,6 +34,7 @@ int pop(Stack* stack) {
 int printStack(Stack* stack) {
     if (stack == NULL) return 0;
     printListBackwards(stack->list);
+    return 1;
 }
 
 int freeStack(Stack* stack) {

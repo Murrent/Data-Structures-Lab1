@@ -19,8 +19,7 @@ int queueEmpty(Queue* queue) {
 
 int enqueue(Queue* queue, int key) {
     if (queue == NULL) return 0;
-    Node* node = createNode(key);
-    insert(queue->list, node);
+    insert(queue->list, createNode(key));
     if (queueEmpty(queue)) {
         queue->head = queue->list->tail;
     }
