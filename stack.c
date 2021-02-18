@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-
 Stack* createStack() {
     Stack* stack = (Stack*)malloc(sizeof(Stack));
     stack->list = createList();
