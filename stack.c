@@ -17,14 +17,15 @@ int stackEmpty(Stack* stack) {
 }
 
 int push(Stack* stack, int key) {
-    Node* node = (Node*)malloc(sizeof(Node));
-    node->key = key;
+    if (stack == NULL || key == NULL) return 0;
+    Node* node = createNode(key);
     insert(stack->list, node);
     stack->top++;
     return 0;
 }
 
 int pop(Stack* stack) {
+    if (stack == NULL) return 0;
     deleteNode(delete(stack->list, stack->list->tail));
     stack->top--;
     return 0;
