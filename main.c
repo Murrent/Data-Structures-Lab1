@@ -39,20 +39,26 @@ int main() {
     printf("predecessor max 2 %d\n", predecessor(list2, maximum(list2))->key);
 
     Stack* stack = createStack();
-    push(stack, 2000);
     push(stack, 2);
-    push(stack, 22);
+    push(stack, 0);
+    push(stack, 0);
+    push(stack, 0);
+    push(stack, 0);
+    push(stack, 2);
+    push(stack, 2);
+    push(stack, 2);
     printStack(stack);
 
     printf("\n");
 
     Queue* queue = createQueue();
     enqueue(queue, 2);
-    enqueue(queue, 3);
-    enqueue(queue, 4);
-    enqueue(queue, 5);
+    enqueue(queue, 0);
+    enqueue(queue, 0);
+    enqueue(queue, 1);
+    enqueue(queue, 0);
     enqueue(queue, 6);
-    enqueue(queue, 7);
+    enqueue(queue, 0);
     enqueue(queue, 8);
     printQueue(queue);
 
