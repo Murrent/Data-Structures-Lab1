@@ -64,7 +64,7 @@ Node* search(List* list, int key) {
     return NULL;
 }
 
-Node* delete(List* list, Node* node) {
+Node* detachNode(List* list, Node* node) {
     if (list == NULL || node == NULL)
         return NULL;
     if (node->previous != NULL)
@@ -124,7 +124,7 @@ Node* predecessor(List* list, Node* node) {
     return found;
 }
 
-int deleteList(List* list) {
+int freeList(List* list) {
     if (list == NULL) return 0;
     Node* tmp = list->head;
     Node* toFree = NULL;
@@ -137,7 +137,7 @@ int deleteList(List* list) {
     return 1;
 }
 
-int deleteNode(Node* node) {
+int freeNode(Node* node) {
     if (node == NULL) return 0;
     free(node);
     return 1;

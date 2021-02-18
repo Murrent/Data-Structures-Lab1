@@ -19,6 +19,6 @@ int queueEmpty(Queue* queue);
 int enqueue(Queue* queue, int key);
 int dequeue(Queue* queue);
 int printQueue(Queue* queue);
-int deleteQueue(Queue* queue);
+int freeQueue(Queue* queue);
 
 #endif //LAB1_ALGORITHM_QUEUE_H

@@ -30,8 +30,7 @@ int enqueue(Queue* queue, int key) {
 
 int dequeue(Queue* queue) {
     if (queue == NULL) return 0;
-    Node* tmp = delete(queue->list, queue->head);
-    deleteNode(tmp);
+    freeNode(detachNode(queue->list, queue->head));
     queue->head = queue->list->tail;
     if (queue->head == NULL)
         queue->tail = NULL;
@@ -44,10 +43,10 @@ int printQueue(Queue* queue) {
     return 1;
 }
 
-int deleteQueue(Queue* queue) {
+int freeQueue(Queue* queue) {
     if (queue == NULL) return 0;
     if (queue->list != NULL)
-        deleteList(queue->list);
+        freeList(queue->list);
     free(queue);
     return 1;
 }

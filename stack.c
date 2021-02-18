@@ -27,7 +27,7 @@ int push(Stack* stack, int key) {
 
 int pop(Stack* stack) {
     if (stack == NULL) return 0;
-    deleteNode(delete(stack->list, stack->list->tail));
+    freeNode(detachNode(stack->list, stack->list->head));
     stack->top--;
     return 1;
 }
@@ -37,9 +37,9 @@ int printStack(Stack* stack) {
     printListBackwards(stack->list);
 }
 
-int deleteStack(Stack* stack) {
+int freeStack(Stack* stack) {
     if (stack == NULL) return 0;
-    deleteList(stack->list);
+    freeList(stack->list);
     free(stack);
     return 1;
 }

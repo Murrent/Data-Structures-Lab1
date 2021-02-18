@@ -18,6 +18,6 @@ int stackEmpty(Stack* stack);
 int push(Stack* stack, int key);
 int pop(Stack* stack);
 int printStack(Stack* stack);
-int deleteStack(Stack* stack);
+int freeStack(Stack* stack);
 
 #endif //LAB1_ALGORITHM_STACK_H

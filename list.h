@@ -25,12 +25,12 @@ int printListBackwards(List* list);
 int isEmpty(List* list);
 int insert(List* list, Node* node);
 Node* search(List* list, int key);
-Node* delete(List* list, Node* node);
+Node* detachNode(List* list, Node* node);
 Node* maximum(List* list);
 Node* minimum(List* list);
 Node* successor(List* list, Node* node);
 Node* predecessor(List* list, Node* node);
-int deleteList(List* list);
-int deleteNode(Node* node);
+int freeList(List* list);
+int freeNode(Node* node);
 
 #endif //LAB1_ALGORITHM_LIST_H

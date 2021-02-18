@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "list.h"
 #include "stack.h"
+#include "queue.h"
 
 int main() {
     List* list1 = createList();
@@ -38,14 +39,27 @@ int main() {
     printf("predecessor max 2 %d\n", predecessor(list2, maximum(list2))->key);
 
     Stack* stack = createStack();
-    push(stack, 3);
-    push(stack, 6);
-    push(stack, 1);
-    pop(stack);
+    push(stack, 2000);
+    push(stack, 2);
+    push(stack, 22);
     printStack(stack);
 
-    deleteList(list1);
-    deleteList(list2);
+    printf("\n");
+
+    Queue* queue = createQueue();
+    enqueue(queue, 2);
+    enqueue(queue, 3);
+    enqueue(queue, 4);
+    enqueue(queue, 5);
+    enqueue(queue, 6);
+    enqueue(queue, 7);
+    enqueue(queue, 8);
+    printQueue(queue);
+
+    freeQueue(queue);
+    freeStack(stack);
+    freeList(list1);
+    freeList(list2);
     return 0;
 }
 
