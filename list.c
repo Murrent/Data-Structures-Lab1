@@ -22,7 +22,7 @@ Node* createNode(int key) {
 }
 
 int printList(List* list) {
-    if (isEmpty(list)) return 0;
+    if (list == NULL || isEmpty(list)) return 0;
     Node* node = list->head;
     for (; node; node = node->next)
         printf("prev %p - self %p - %d - next %p\n",
@@ -31,7 +31,7 @@ int printList(List* list) {
 }
 
 int printListBackwards(List* list) {
-    if (isEmpty(list)) return 0;
+    if (list == NULL || isEmpty(list)) return 0;
     Node* node = list->tail;
     for (; node; node = node->previous)
         printf("prev %p - self %p - %d - next %p\n",
@@ -39,15 +39,13 @@ int printListBackwards(List* list) {
     return 1;
 }
 
-int isEmpty(List* list)
-{
-    if (list->head == NULL) return 1;
-    return 0;
+int isEmpty(List* list) {
+    if (list == NULL) return 0;
+    return list->head == NULL;
 }
 
-int insert(List* list, Node* node)
-{
-    if (list == NULL && node == NULL) return 0;
+int insert(List* list, Node* node) {
+    if (list == NULL || node == NULL) return 0;
     if (list->head == NULL)
         list->tail = node;
     else
@@ -59,8 +57,7 @@ int insert(List* list, Node* node)
     return 1;
 }
 
-Node* search(List* list, int key)
-{
+Node* search(List* list, int key) {
     if (list == NULL)
         return NULL;
     Node* tmp = list->head;
@@ -69,9 +66,8 @@ Node* search(List* list, int key)
     return NULL;
 }
 
-Node* delete(List* list, Node* node)
-{
-    if (list == NULL && node == NULL)
+Node* delete(List* list, Node* node) {
+    if (list == NULL || node == NULL)
         return NULL;
     if (node->previous != NULL)
         node->previous->next = node->next;
@@ -82,8 +78,7 @@ Node* delete(List* list, Node* node)
     return node;
 }
 
-Node* maximum(List* list)
-{
+Node* maximum(List* list) {
     if (list == NULL)
         return NULL;
     Node* tmp = list->head->next;
@@ -93,8 +88,7 @@ Node* maximum(List* list)
     return max;
 }
 
-Node* minimum(List* list)
-{
+Node* minimum(List* list) {
     if (list == NULL)
         return NULL;
     Node* tmp = list->head->next;
@@ -104,9 +98,8 @@ Node* minimum(List* list)
     return min;
 }
 
-Node* successor(List* list, Node* node)
-{
-    if (list == NULL && node == NULL)
+Node* successor(List* list, Node* node) {
+    if (list == NULL || node == NULL)
         return NULL;
     Node* tmp = list->head;
     Node* found = NULL;
@@ -119,9 +112,8 @@ Node* successor(List* list, Node* node)
     return found;
 }
 
-Node* predecessor(List* list, Node* node)
-{
-    if (list == NULL && node == NULL)
+Node* predecessor(List* list, Node* node) {
+    if (list == NULL || node == NULL)
         return NULL;
     Node* tmp = list->head;
     Node* found = NULL;
