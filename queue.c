@@ -27,13 +27,13 @@ int enqueue(Queue* queue, int key) {
     return 1;
 }
 
-int dequeue(Queue* queue) {
-    if (queue == NULL) return 0;
-    freeNode(detachNode(queue->list, queue->head));
+Node* dequeue(Queue* queue) {
+    if (queue == NULL) return NULL;
+    Node* node = detachNode(queue->list, queue->head);
     queue->head = queue->list->tail;
     if (queue->head == NULL)
         queue->tail = NULL;
-    return 1;
+    return node;
 }
 
 int printQueue(Queue* queue) {

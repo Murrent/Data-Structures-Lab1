@@ -24,11 +24,10 @@ int push(Stack* stack, int key) {
     return 1;
 }
 
-int pop(Stack* stack) {
-    if (stack == NULL) return 0;
-    freeNode(detachNode(stack->list, stack->list->head));
+Node* pop(Stack* stack) {
+    if (stack == NULL) return NULL;
     stack->top--;
-    return 1;
+    return detachNode(stack->list, stack->list->head);
 }
 
 int printStack(Stack* stack) {
