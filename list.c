@@ -79,7 +79,7 @@ Node* detachNode(List* list, Node* node) {
 Node* maximum(List* list) {
     if (list == NULL)
         return NULL;
-    Node* tmp = list->head->next;
+    Node* tmp = list->head;
     Node* max = tmp;
     for (; tmp; tmp = tmp->next)
         if (max->key < tmp->key) max = tmp;
@@ -89,7 +89,7 @@ Node* maximum(List* list) {
 Node* minimum(List* list) {
     if (list == NULL)
         return NULL;
-    Node* tmp = list->head->next;
+    Node* tmp = list->head;
     Node* min = tmp;
     for (; tmp; tmp = tmp->next)
         if (min->key > tmp->key) min = tmp;
