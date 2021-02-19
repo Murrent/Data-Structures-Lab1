@@ -1,6 +1,4 @@
-//
-// Created by Martin on 2021-02-08.
-//
+// Martin Vickgren, Samson Tesfalem
 
 #ifndef LAB1_ALGORITHM_LIST_H
 #define LAB1_ALGORITHM_LIST_H

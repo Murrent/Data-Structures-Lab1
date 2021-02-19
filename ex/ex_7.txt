@@ -1,3 +1,4 @@
+// Martin Vickgren, Samson Tesfalem
 We compared our results in exercise 2 with André Falk Edetun och Kevin Güvenal.
 
 Our results were: 

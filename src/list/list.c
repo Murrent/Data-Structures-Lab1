@@ -1,6 +1,4 @@
-//
-// Created by Martin on 2021-02-08.
-//
+// Martin Vickgren, Samson Tesfalem
 
 #include "list.h"
 #include <stdlib.h>

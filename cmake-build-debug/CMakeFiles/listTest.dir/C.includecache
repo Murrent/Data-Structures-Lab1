@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.c
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h
+stdlib.h
+-
+stdio.h
+-
+
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h
 
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/listTest.c

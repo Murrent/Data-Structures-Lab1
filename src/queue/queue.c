@@ -1,6 +1,4 @@
-//
-// Created by Martin on 2021-02-12.
-//
+// Martin Vickgren, Samson Tesfalem
 #include "queue.h"
 #include <stdlib.h>
 
