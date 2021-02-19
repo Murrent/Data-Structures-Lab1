@@ -2,12 +2,12 @@ Queue
 
 As we enqueue the personal number into the queue list the first input will be regarded as both head and tail. 
 When we make a new input the first input will be head and the second will be the tail. 
-Wich means that everytime we make new input it will be regarded as tail and the inputs that was made before them will be previous to the head.
-When we dequeue the head wich was the first input in the queue list will be removed and the previous node to the head will be assigned as the new head.
+Which means that every time we make new input it will be regarded as tail and the inputs that were made before them will be previous to the head.
+When we dequeue the head which was the first input in the queue list will be removed and the previous node to the head will be assigned as the new head.
 
-Implemantation of the queue is in list.h, list.c and queue.h, queue.c.
-In queue.h we difine structer of queue and funtions which be used in queue.c.
-The struct of node nad list in list.h also used in queue.
+Implementation of the queue is in list.h, list.c and queue.h, queue.c.
+In queue.h we define structure of queue and functions which are used in queue.c.
+The struct of node and list in list.h also used in a queue.
 
 
 To execute this file we used CMakeLists.txt
@@ -23,13 +23,13 @@ add_executable(queueTest src/tests/queueTest.c src/list/list.h src/list/list.c s
 
 Stack
 
-In the stack every time we make an input in the list there will be a number assigned to very node. 
-Unlike as in queue where the tail are the latest input in stack the head is the latest input and tail is the fist input.
-Wich means when we use the pop functione the head with the latest inpute is deleted.
+In the stack every time we make an input in the list there will be a number assigned to every node. 
+Unlike in a queue where the tail is the latest input in the stack the head is the latest input and tail is the fist input.
+Which means when we use the pop function the head with the latest input is deleted.
 
-Implemantation of the stack is in list.h, list.c and stack.h, stack.c.
-In stack.h we difine structer of queue and funtions which be used in stack.c.
-The struct of node nad list in list.h also used in stack.
+Implementation of the stack is in list.h, list.c and stack.h, stack.c.
+In stack.h we define structure of queue and functions which are used in stack.c.
+The struct of node and list in list.h also used in stack.
 
 
 To execute this file we used CMakeLists.txt
@@ -41,3 +41,4 @@ project(lab1_algorithm C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(stackTest src/tests/stackTest.c src/list/list.h src/list/list.c src/stack/stack.h src/stack/stack.c)
+
