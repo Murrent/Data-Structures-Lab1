@@ -76,72 +76,72 @@ include CMakeFiles/lab1_algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab1_algorithm.dir/flags.make
 
-CMakeFiles/lab1_algorithm.dir/main.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
-CMakeFiles/lab1_algorithm.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab1_algorithm.dir/main.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\main.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\main.c
+CMakeFiles/lab1_algorithm.dir/src/main.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
+CMakeFiles/lab1_algorithm.dir/src/main.c.obj: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab1_algorithm.dir/src/main.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\src\main.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\main.c
 
-CMakeFiles/lab1_algorithm.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/main.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\main.c > CMakeFiles\lab1_algorithm.dir\main.c.i
+CMakeFiles/lab1_algorithm.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/src/main.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\main.c > CMakeFiles\lab1_algorithm.dir\src\main.c.i
 
-CMakeFiles/lab1_algorithm.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/main.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\main.c -o CMakeFiles\lab1_algorithm.dir\main.c.s
+CMakeFiles/lab1_algorithm.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/src/main.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\main.c -o CMakeFiles\lab1_algorithm.dir\src\main.c.s
 
-CMakeFiles/lab1_algorithm.dir/list.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
-CMakeFiles/lab1_algorithm.dir/list.c.obj: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab1_algorithm.dir/list.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c
+CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
+CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj: ../src/list/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\src\list\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c
 
-CMakeFiles/lab1_algorithm.dir/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/list.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c > CMakeFiles\lab1_algorithm.dir\list.c.i
+CMakeFiles/lab1_algorithm.dir/src/list/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/src/list/list.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c > CMakeFiles\lab1_algorithm.dir\src\list\list.c.i
 
-CMakeFiles/lab1_algorithm.dir/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/list.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c -o CMakeFiles\lab1_algorithm.dir\list.c.s
+CMakeFiles/lab1_algorithm.dir/src/list/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/src/list/list.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c -o CMakeFiles\lab1_algorithm.dir\src\list\list.c.s
 
-CMakeFiles/lab1_algorithm.dir/stack.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
-CMakeFiles/lab1_algorithm.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab1_algorithm.dir/stack.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\stack.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c
+CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
+CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj: ../src/stack/stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\src\stack\stack.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c
 
-CMakeFiles/lab1_algorithm.dir/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/stack.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c > CMakeFiles\lab1_algorithm.dir\stack.c.i
+CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c > CMakeFiles\lab1_algorithm.dir\src\stack\stack.c.i
 
-CMakeFiles/lab1_algorithm.dir/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/stack.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c -o CMakeFiles\lab1_algorithm.dir\stack.c.s
+CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c -o CMakeFiles\lab1_algorithm.dir\src\stack\stack.c.s
 
-CMakeFiles/lab1_algorithm.dir/queue.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
-CMakeFiles/lab1_algorithm.dir/queue.c.obj: ../queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab1_algorithm.dir/queue.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\queue.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c
+CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj: CMakeFiles/lab1_algorithm.dir/flags.make
+CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj: ../src/queue/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\lab1_algorithm.dir\src\queue\queue.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c
 
-CMakeFiles/lab1_algorithm.dir/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/queue.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c > CMakeFiles\lab1_algorithm.dir\queue.c.i
+CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c > CMakeFiles\lab1_algorithm.dir\src\queue\queue.c.i
 
-CMakeFiles/lab1_algorithm.dir/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/queue.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c -o CMakeFiles\lab1_algorithm.dir\queue.c.s
+CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c -o CMakeFiles\lab1_algorithm.dir\src\queue\queue.c.s
 
 # Object files for target lab1_algorithm
 lab1_algorithm_OBJECTS = \
-"CMakeFiles/lab1_algorithm.dir/main.c.obj" \
-"CMakeFiles/lab1_algorithm.dir/list.c.obj" \
-"CMakeFiles/lab1_algorithm.dir/stack.c.obj" \
-"CMakeFiles/lab1_algorithm.dir/queue.c.obj"
+"CMakeFiles/lab1_algorithm.dir/src/main.c.obj" \
+"CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj" \
+"CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj" \
+"CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj"
 
 # External object files for target lab1_algorithm
 lab1_algorithm_EXTERNAL_OBJECTS =
 
-lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/main.c.obj
-lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/list.c.obj
-lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/stack.c.obj
-lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/queue.c.obj
+lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/src/main.c.obj
+lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj
+lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj
+lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj
 lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/build.make
 lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/linklibs.rsp
 lab1_algorithm.exe: CMakeFiles/lab1_algorithm.dir/objects1.rsp

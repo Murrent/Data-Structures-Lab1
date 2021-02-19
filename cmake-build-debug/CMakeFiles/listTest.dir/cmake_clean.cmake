@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/listTest.dir/list.c.obj"
-  "CMakeFiles/listTest.dir/listTest.c.obj"
+  "CMakeFiles/listTest.dir/src/list/list.c.obj"
+  "CMakeFiles/listTest.dir/src/tests/listTest.c.obj"
   "liblistTest.dll.a"
   "listTest.exe"
   "listTest.exe.manifest"

@@ -1,1 +1,1 @@
-CMakeFiles/labTests.dir/list.c.obj CMakeFiles/labTests.dir/stack.c.obj CMakeFiles/labTests.dir/queue.c.obj CMakeFiles/labTests.dir/labTests.c.obj
+CMakeFiles/labTests.dir/src/tests/labTests.c.obj CMakeFiles/labTests.dir/src/list/list.c.obj CMakeFiles/labTests.dir/src/stack/stack.c.obj CMakeFiles/labTests.dir/src/queue/queue.c.obj

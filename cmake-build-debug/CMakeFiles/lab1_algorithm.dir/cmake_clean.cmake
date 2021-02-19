@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab1_algorithm.dir/list.c.obj"
-  "CMakeFiles/lab1_algorithm.dir/main.c.obj"
-  "CMakeFiles/lab1_algorithm.dir/queue.c.obj"
-  "CMakeFiles/lab1_algorithm.dir/stack.c.obj"
+  "CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj"
+  "CMakeFiles/lab1_algorithm.dir/src/main.c.obj"
+  "CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj"
+  "CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj"
   "lab1_algorithm.exe"
   "lab1_algorithm.exe.manifest"
   "lab1_algorithm.pdb"

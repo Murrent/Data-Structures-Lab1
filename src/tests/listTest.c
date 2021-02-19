@@ -1,7 +1,8 @@
+//
+// Created by Martin on 2021-02-19.
+//
 #include <stdio.h>
-#include "list.h"
-#include "stack.h"
-#include "queue.h"
+#include "../list/list.h"
 
 // MAXIMUM TESTS
 void maximumTest1(List* list) {
@@ -117,76 +118,7 @@ void testList() {
     freeList(list2);
 }
 
-void testStack() {
-    printf("Stack\n");
-    Stack* stack = createStack();
-    push(stack, 2);
-    push(stack, 0);
-    push(stack, 0);
-    push(stack, 0);
-    push(stack, 0);
-    push(stack, 2);
-    push(stack, 2);
-    push(stack, 2);
-    printStack(stack);
-
-    freeStack(stack);
-}
-
-void testQueue() {
-    printf("Queue\n");
-    Queue* queue = createQueue();
-    enqueue(queue, 2);
-    enqueue(queue, 0);
-    enqueue(queue, 0);
-    enqueue(queue, 1);
-    enqueue(queue, 0);
-    enqueue(queue, 6);
-    enqueue(queue, 0);
-    enqueue(queue, 8);
-    printQueue(queue);
-
-    freeQueue(queue);
-}
-
-void labTests() {
-    printf("Lab Tests\nlist\n");
-    List* list = createList();
-    insert(list, createNode(1));
-    insert(list, createNode(3));
-    insert(list, createNode(2));
-    printList(list);
-    detachNode(list, predecessor(list, search(list, 2)));
-    printf("\n");
-    printList(list);
-    detachNode(list, predecessor(list, search(list, 1)));
-    printf("\n");
-    printList(list);
-
-    Queue* q = createQueue();
-    enqueue(q, 1);
-    printf("queue\n");
-    printQueue(q);
-    enqueue(q, 2);
-    printf("\n");
-    printQueue(q);
-    Stack* s = createStack();
-    push(s, dequeue(q)->key);
-    printf("\n");
-    printQueue(q);
-    printf("stack\n");
-    printStack(s);
-
-    freeList(list);
-    freeQueue(q);
-    freeStack(s);
-}
-
 int main() {
     testList();
-    testStack();
-    testQueue();
-    labTests();
     return 0;
 }
-

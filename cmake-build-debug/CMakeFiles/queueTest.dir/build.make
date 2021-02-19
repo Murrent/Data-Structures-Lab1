@@ -76,57 +76,57 @@ include CMakeFiles/queueTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/queueTest.dir/flags.make
 
-CMakeFiles/queueTest.dir/queueTest.c.obj: CMakeFiles/queueTest.dir/flags.make
-CMakeFiles/queueTest.dir/queueTest.c.obj: ../queueTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/queueTest.dir/queueTest.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\queueTest.dir\queueTest.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queueTest.c
+CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj: CMakeFiles/queueTest.dir/flags.make
+CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj: ../src/tests/queueTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\queueTest.dir\src\tests\queueTest.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\queueTest.c
 
-CMakeFiles/queueTest.dir/queueTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/queueTest.dir/queueTest.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queueTest.c > CMakeFiles\queueTest.dir\queueTest.c.i
+CMakeFiles/queueTest.dir/src/tests/queueTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/queueTest.dir/src/tests/queueTest.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\queueTest.c > CMakeFiles\queueTest.dir\src\tests\queueTest.c.i
 
-CMakeFiles/queueTest.dir/queueTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/queueTest.dir/queueTest.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queueTest.c -o CMakeFiles\queueTest.dir\queueTest.c.s
+CMakeFiles/queueTest.dir/src/tests/queueTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/queueTest.dir/src/tests/queueTest.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\queueTest.c -o CMakeFiles\queueTest.dir\src\tests\queueTest.c.s
 
-CMakeFiles/queueTest.dir/list.c.obj: CMakeFiles/queueTest.dir/flags.make
-CMakeFiles/queueTest.dir/list.c.obj: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/queueTest.dir/list.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\queueTest.dir\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c
+CMakeFiles/queueTest.dir/src/list/list.c.obj: CMakeFiles/queueTest.dir/flags.make
+CMakeFiles/queueTest.dir/src/list/list.c.obj: ../src/list/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/queueTest.dir/src/list/list.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\queueTest.dir\src\list\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c
 
-CMakeFiles/queueTest.dir/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/queueTest.dir/list.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c > CMakeFiles\queueTest.dir\list.c.i
+CMakeFiles/queueTest.dir/src/list/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/queueTest.dir/src/list/list.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c > CMakeFiles\queueTest.dir\src\list\list.c.i
 
-CMakeFiles/queueTest.dir/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/queueTest.dir/list.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c -o CMakeFiles\queueTest.dir\list.c.s
+CMakeFiles/queueTest.dir/src/list/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/queueTest.dir/src/list/list.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c -o CMakeFiles\queueTest.dir\src\list\list.c.s
 
-CMakeFiles/queueTest.dir/queue.c.obj: CMakeFiles/queueTest.dir/flags.make
-CMakeFiles/queueTest.dir/queue.c.obj: ../queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/queueTest.dir/queue.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\queueTest.dir\queue.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c
+CMakeFiles/queueTest.dir/src/queue/queue.c.obj: CMakeFiles/queueTest.dir/flags.make
+CMakeFiles/queueTest.dir/src/queue/queue.c.obj: ../src/queue/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/queueTest.dir/src/queue/queue.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\queueTest.dir\src\queue\queue.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c
 
-CMakeFiles/queueTest.dir/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/queueTest.dir/queue.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c > CMakeFiles\queueTest.dir\queue.c.i
+CMakeFiles/queueTest.dir/src/queue/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/queueTest.dir/src/queue/queue.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c > CMakeFiles\queueTest.dir\src\queue\queue.c.i
 
-CMakeFiles/queueTest.dir/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/queueTest.dir/queue.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c -o CMakeFiles\queueTest.dir\queue.c.s
+CMakeFiles/queueTest.dir/src/queue/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/queueTest.dir/src/queue/queue.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c -o CMakeFiles\queueTest.dir\src\queue\queue.c.s
 
 # Object files for target queueTest
 queueTest_OBJECTS = \
-"CMakeFiles/queueTest.dir/queueTest.c.obj" \
-"CMakeFiles/queueTest.dir/list.c.obj" \
-"CMakeFiles/queueTest.dir/queue.c.obj"
+"CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj" \
+"CMakeFiles/queueTest.dir/src/list/list.c.obj" \
+"CMakeFiles/queueTest.dir/src/queue/queue.c.obj"
 
 # External object files for target queueTest
 queueTest_EXTERNAL_OBJECTS =
 
-queueTest.exe: CMakeFiles/queueTest.dir/queueTest.c.obj
-queueTest.exe: CMakeFiles/queueTest.dir/list.c.obj
-queueTest.exe: CMakeFiles/queueTest.dir/queue.c.obj
+queueTest.exe: CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj
+queueTest.exe: CMakeFiles/queueTest.dir/src/list/list.c.obj
+queueTest.exe: CMakeFiles/queueTest.dir/src/queue/queue.c.obj
 queueTest.exe: CMakeFiles/queueTest.dir/build.make
 queueTest.exe: CMakeFiles/queueTest.dir/linklibs.rsp
 queueTest.exe: CMakeFiles/queueTest.dir/objects1.rsp

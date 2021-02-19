@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stackTest.dir/list.c.obj"
-  "CMakeFiles/stackTest.dir/stack.c.obj"
-  "CMakeFiles/stackTest.dir/stackTest.c.obj"
+  "CMakeFiles/stackTest.dir/src/list/list.c.obj"
+  "CMakeFiles/stackTest.dir/src/stack/stack.c.obj"
+  "CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj"
   "libstackTest.dll.a"
   "stackTest.exe"
   "stackTest.exe.manifest"

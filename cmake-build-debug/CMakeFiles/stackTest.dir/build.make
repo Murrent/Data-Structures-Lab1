@@ -76,57 +76,57 @@ include CMakeFiles/stackTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stackTest.dir/flags.make
 
-CMakeFiles/stackTest.dir/stackTest.c.obj: CMakeFiles/stackTest.dir/flags.make
-CMakeFiles/stackTest.dir/stackTest.c.obj: ../stackTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stackTest.dir/stackTest.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stackTest.dir\stackTest.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stackTest.c
+CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj: CMakeFiles/stackTest.dir/flags.make
+CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj: ../src/tests/stackTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stackTest.dir\src\tests\stackTest.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\stackTest.c
 
-CMakeFiles/stackTest.dir/stackTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stackTest.dir/stackTest.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stackTest.c > CMakeFiles\stackTest.dir\stackTest.c.i
+CMakeFiles/stackTest.dir/src/tests/stackTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stackTest.dir/src/tests/stackTest.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\stackTest.c > CMakeFiles\stackTest.dir\src\tests\stackTest.c.i
 
-CMakeFiles/stackTest.dir/stackTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stackTest.dir/stackTest.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stackTest.c -o CMakeFiles\stackTest.dir\stackTest.c.s
+CMakeFiles/stackTest.dir/src/tests/stackTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stackTest.dir/src/tests/stackTest.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\stackTest.c -o CMakeFiles\stackTest.dir\src\tests\stackTest.c.s
 
-CMakeFiles/stackTest.dir/list.c.obj: CMakeFiles/stackTest.dir/flags.make
-CMakeFiles/stackTest.dir/list.c.obj: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stackTest.dir/list.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stackTest.dir\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c
+CMakeFiles/stackTest.dir/src/list/list.c.obj: CMakeFiles/stackTest.dir/flags.make
+CMakeFiles/stackTest.dir/src/list/list.c.obj: ../src/list/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stackTest.dir/src/list/list.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stackTest.dir\src\list\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c
 
-CMakeFiles/stackTest.dir/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stackTest.dir/list.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c > CMakeFiles\stackTest.dir\list.c.i
+CMakeFiles/stackTest.dir/src/list/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stackTest.dir/src/list/list.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c > CMakeFiles\stackTest.dir\src\list\list.c.i
 
-CMakeFiles/stackTest.dir/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stackTest.dir/list.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c -o CMakeFiles\stackTest.dir\list.c.s
+CMakeFiles/stackTest.dir/src/list/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stackTest.dir/src/list/list.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c -o CMakeFiles\stackTest.dir\src\list\list.c.s
 
-CMakeFiles/stackTest.dir/stack.c.obj: CMakeFiles/stackTest.dir/flags.make
-CMakeFiles/stackTest.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stackTest.dir/stack.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stackTest.dir\stack.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c
+CMakeFiles/stackTest.dir/src/stack/stack.c.obj: CMakeFiles/stackTest.dir/flags.make
+CMakeFiles/stackTest.dir/src/stack/stack.c.obj: ../src/stack/stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stackTest.dir/src/stack/stack.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stackTest.dir\src\stack\stack.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c
 
-CMakeFiles/stackTest.dir/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stackTest.dir/stack.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c > CMakeFiles\stackTest.dir\stack.c.i
+CMakeFiles/stackTest.dir/src/stack/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stackTest.dir/src/stack/stack.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c > CMakeFiles\stackTest.dir\src\stack\stack.c.i
 
-CMakeFiles/stackTest.dir/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stackTest.dir/stack.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c -o CMakeFiles\stackTest.dir\stack.c.s
+CMakeFiles/stackTest.dir/src/stack/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stackTest.dir/src/stack/stack.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c -o CMakeFiles\stackTest.dir\src\stack\stack.c.s
 
 # Object files for target stackTest
 stackTest_OBJECTS = \
-"CMakeFiles/stackTest.dir/stackTest.c.obj" \
-"CMakeFiles/stackTest.dir/list.c.obj" \
-"CMakeFiles/stackTest.dir/stack.c.obj"
+"CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj" \
+"CMakeFiles/stackTest.dir/src/list/list.c.obj" \
+"CMakeFiles/stackTest.dir/src/stack/stack.c.obj"
 
 # External object files for target stackTest
 stackTest_EXTERNAL_OBJECTS =
 
-stackTest.exe: CMakeFiles/stackTest.dir/stackTest.c.obj
-stackTest.exe: CMakeFiles/stackTest.dir/list.c.obj
-stackTest.exe: CMakeFiles/stackTest.dir/stack.c.obj
+stackTest.exe: CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj
+stackTest.exe: CMakeFiles/stackTest.dir/src/list/list.c.obj
+stackTest.exe: CMakeFiles/stackTest.dir/src/stack/stack.c.obj
 stackTest.exe: CMakeFiles/stackTest.dir/build.make
 stackTest.exe: CMakeFiles/stackTest.dir/linklibs.rsp
 stackTest.exe: CMakeFiles/stackTest.dir/objects1.rsp

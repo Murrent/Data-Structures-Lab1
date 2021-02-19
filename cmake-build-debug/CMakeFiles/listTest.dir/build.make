@@ -76,42 +76,42 @@ include CMakeFiles/listTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/listTest.dir/flags.make
 
-CMakeFiles/listTest.dir/listTest.c.obj: CMakeFiles/listTest.dir/flags.make
-CMakeFiles/listTest.dir/listTest.c.obj: ../listTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/listTest.dir/listTest.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\listTest.dir\listTest.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\listTest.c
+CMakeFiles/listTest.dir/src/tests/listTest.c.obj: CMakeFiles/listTest.dir/flags.make
+CMakeFiles/listTest.dir/src/tests/listTest.c.obj: ../src/tests/listTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/listTest.dir/src/tests/listTest.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\listTest.dir\src\tests\listTest.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\listTest.c
 
-CMakeFiles/listTest.dir/listTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/listTest.dir/listTest.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\listTest.c > CMakeFiles\listTest.dir\listTest.c.i
+CMakeFiles/listTest.dir/src/tests/listTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/listTest.dir/src/tests/listTest.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\listTest.c > CMakeFiles\listTest.dir\src\tests\listTest.c.i
 
-CMakeFiles/listTest.dir/listTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/listTest.dir/listTest.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\listTest.c -o CMakeFiles\listTest.dir\listTest.c.s
+CMakeFiles/listTest.dir/src/tests/listTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/listTest.dir/src/tests/listTest.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\listTest.c -o CMakeFiles\listTest.dir\src\tests\listTest.c.s
 
-CMakeFiles/listTest.dir/list.c.obj: CMakeFiles/listTest.dir/flags.make
-CMakeFiles/listTest.dir/list.c.obj: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/listTest.dir/list.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\listTest.dir\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c
+CMakeFiles/listTest.dir/src/list/list.c.obj: CMakeFiles/listTest.dir/flags.make
+CMakeFiles/listTest.dir/src/list/list.c.obj: ../src/list/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/listTest.dir/src/list/list.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\listTest.dir\src\list\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c
 
-CMakeFiles/listTest.dir/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/listTest.dir/list.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c > CMakeFiles\listTest.dir\list.c.i
+CMakeFiles/listTest.dir/src/list/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/listTest.dir/src/list/list.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c > CMakeFiles\listTest.dir\src\list\list.c.i
 
-CMakeFiles/listTest.dir/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/listTest.dir/list.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c -o CMakeFiles\listTest.dir\list.c.s
+CMakeFiles/listTest.dir/src/list/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/listTest.dir/src/list/list.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c -o CMakeFiles\listTest.dir\src\list\list.c.s
 
 # Object files for target listTest
 listTest_OBJECTS = \
-"CMakeFiles/listTest.dir/listTest.c.obj" \
-"CMakeFiles/listTest.dir/list.c.obj"
+"CMakeFiles/listTest.dir/src/tests/listTest.c.obj" \
+"CMakeFiles/listTest.dir/src/list/list.c.obj"
 
 # External object files for target listTest
 listTest_EXTERNAL_OBJECTS =
 
-listTest.exe: CMakeFiles/listTest.dir/listTest.c.obj
-listTest.exe: CMakeFiles/listTest.dir/list.c.obj
+listTest.exe: CMakeFiles/listTest.dir/src/tests/listTest.c.obj
+listTest.exe: CMakeFiles/listTest.dir/src/list/list.c.obj
 listTest.exe: CMakeFiles/listTest.dir/build.make
 listTest.exe: CMakeFiles/listTest.dir/linklibs.rsp
 listTest.exe: CMakeFiles/listTest.dir/objects1.rsp

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/queueTest.dir/list.c.obj"
-  "CMakeFiles/queueTest.dir/queue.c.obj"
-  "CMakeFiles/queueTest.dir/queueTest.c.obj"
+  "CMakeFiles/queueTest.dir/src/list/list.c.obj"
+  "CMakeFiles/queueTest.dir/src/queue/queue.c.obj"
+  "CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj"
   "libqueueTest.dll.a"
   "queueTest.exe"
   "queueTest.exe.manifest"

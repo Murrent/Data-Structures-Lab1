@@ -5,7 +5,7 @@
 #ifndef LAB1_ALGORITHM_QUEUE_H
 #define LAB1_ALGORITHM_QUEUE_H
 
-#include "list.h"
+#include "../list/list.h"
 
 typedef struct queue_
 {

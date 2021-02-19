@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir/list.c.obj"
-  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir/queue.c.obj"
-  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queueTest.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir/queueTest.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir/src/list/list.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/queue/queue.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir/src/queue/queue.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/queueTest.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

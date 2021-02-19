@@ -6,3 +6,35 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.c
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h
+stdlib.h
+-
+stdio.h
+-
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/main.c
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/queue/queue.c
+queue.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/queue/queue.h
+stdlib.h
+-
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/queue/queue.h
+../list/list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/stack/stack.c
+stack.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/stack/stack.h
+stdlib.h
+-
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/stack/stack.h
+../list/list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h
+

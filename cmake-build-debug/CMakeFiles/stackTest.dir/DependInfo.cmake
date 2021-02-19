@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir/list.c.obj"
-  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir/stack.c.obj"
-  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stackTest.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir/stackTest.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir/src/list/list.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/stack/stack.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir/src/stack/stack.c.obj"
+  "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/stackTest.c" "C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

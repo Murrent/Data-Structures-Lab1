@@ -76,81 +76,81 @@ include CMakeFiles/labTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/labTests.dir/flags.make
 
-CMakeFiles/labTests.dir/list.c.obj: CMakeFiles/labTests.dir/flags.make
-CMakeFiles/labTests.dir/list.c.obj: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/labTests.dir/list.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c
+CMakeFiles/labTests.dir/src/tests/labTests.c.obj: CMakeFiles/labTests.dir/flags.make
+CMakeFiles/labTests.dir/src/tests/labTests.c.obj: ../src/tests/labTests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/labTests.dir/src/tests/labTests.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\src\tests\labTests.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\labTests.c
 
-CMakeFiles/labTests.dir/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/list.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c > CMakeFiles\labTests.dir\list.c.i
+CMakeFiles/labTests.dir/src/tests/labTests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/src/tests/labTests.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\labTests.c > CMakeFiles\labTests.dir\src\tests\labTests.c.i
 
-CMakeFiles/labTests.dir/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/list.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\list.c -o CMakeFiles\labTests.dir\list.c.s
+CMakeFiles/labTests.dir/src/tests/labTests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/src/tests/labTests.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\tests\labTests.c -o CMakeFiles\labTests.dir\src\tests\labTests.c.s
 
-CMakeFiles/labTests.dir/stack.c.obj: CMakeFiles/labTests.dir/flags.make
-CMakeFiles/labTests.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/labTests.dir/stack.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\stack.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c
+CMakeFiles/labTests.dir/src/list/list.c.obj: CMakeFiles/labTests.dir/flags.make
+CMakeFiles/labTests.dir/src/list/list.c.obj: ../src/list/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/labTests.dir/src/list/list.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\src\list\list.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c
 
-CMakeFiles/labTests.dir/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/stack.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c > CMakeFiles\labTests.dir\stack.c.i
+CMakeFiles/labTests.dir/src/list/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/src/list/list.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c > CMakeFiles\labTests.dir\src\list\list.c.i
 
-CMakeFiles/labTests.dir/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/stack.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\stack.c -o CMakeFiles\labTests.dir\stack.c.s
+CMakeFiles/labTests.dir/src/list/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/src/list/list.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\list\list.c -o CMakeFiles\labTests.dir\src\list\list.c.s
 
-CMakeFiles/labTests.dir/queue.c.obj: CMakeFiles/labTests.dir/flags.make
-CMakeFiles/labTests.dir/queue.c.obj: ../queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/labTests.dir/queue.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\queue.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c
+CMakeFiles/labTests.dir/src/stack/stack.c.obj: CMakeFiles/labTests.dir/flags.make
+CMakeFiles/labTests.dir/src/stack/stack.c.obj: ../src/stack/stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/labTests.dir/src/stack/stack.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\src\stack\stack.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c
 
-CMakeFiles/labTests.dir/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/queue.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c > CMakeFiles\labTests.dir\queue.c.i
+CMakeFiles/labTests.dir/src/stack/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/src/stack/stack.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c > CMakeFiles\labTests.dir\src\stack\stack.c.i
 
-CMakeFiles/labTests.dir/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/queue.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\queue.c -o CMakeFiles\labTests.dir\queue.c.s
+CMakeFiles/labTests.dir/src/stack/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/src/stack/stack.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\stack\stack.c -o CMakeFiles\labTests.dir\src\stack\stack.c.s
 
-CMakeFiles/labTests.dir/labTests.c.obj: CMakeFiles/labTests.dir/flags.make
-CMakeFiles/labTests.dir/labTests.c.obj: ../labTests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/labTests.dir/labTests.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\labTests.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\labTests.c
+CMakeFiles/labTests.dir/src/queue/queue.c.obj: CMakeFiles/labTests.dir/flags.make
+CMakeFiles/labTests.dir/src/queue/queue.c.obj: ../src/queue/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/labTests.dir/src/queue/queue.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\labTests.dir\src\queue\queue.c.obj   -c C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c
 
-CMakeFiles/labTests.dir/labTests.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/labTests.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\labTests.c > CMakeFiles\labTests.dir\labTests.c.i
+CMakeFiles/labTests.dir/src/queue/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/labTests.dir/src/queue/queue.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c > CMakeFiles\labTests.dir\src\queue\queue.c.i
 
-CMakeFiles/labTests.dir/labTests.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/labTests.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\labTests.c -o CMakeFiles\labTests.dir\labTests.c.s
+CMakeFiles/labTests.dir/src/queue/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/labTests.dir/src/queue/queue.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\src\queue\queue.c -o CMakeFiles\labTests.dir\src\queue\queue.c.s
 
 # Object files for target labTests
 labTests_OBJECTS = \
-"CMakeFiles/labTests.dir/list.c.obj" \
-"CMakeFiles/labTests.dir/stack.c.obj" \
-"CMakeFiles/labTests.dir/queue.c.obj" \
-"CMakeFiles/labTests.dir/labTests.c.obj"
+"CMakeFiles/labTests.dir/src/tests/labTests.c.obj" \
+"CMakeFiles/labTests.dir/src/list/list.c.obj" \
+"CMakeFiles/labTests.dir/src/stack/stack.c.obj" \
+"CMakeFiles/labTests.dir/src/queue/queue.c.obj"
 
 # External object files for target labTests
 labTests_EXTERNAL_OBJECTS =
 
-../build/labTests.exe: CMakeFiles/labTests.dir/list.c.obj
-../build/labTests.exe: CMakeFiles/labTests.dir/stack.c.obj
-../build/labTests.exe: CMakeFiles/labTests.dir/queue.c.obj
-../build/labTests.exe: CMakeFiles/labTests.dir/labTests.c.obj
-../build/labTests.exe: CMakeFiles/labTests.dir/build.make
-../build/labTests.exe: CMakeFiles/labTests.dir/linklibs.rsp
-../build/labTests.exe: CMakeFiles/labTests.dir/objects1.rsp
-../build/labTests.exe: CMakeFiles/labTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ..\build\labTests.exe"
+labTests.exe: CMakeFiles/labTests.dir/src/tests/labTests.c.obj
+labTests.exe: CMakeFiles/labTests.dir/src/list/list.c.obj
+labTests.exe: CMakeFiles/labTests.dir/src/stack/stack.c.obj
+labTests.exe: CMakeFiles/labTests.dir/src/queue/queue.c.obj
+labTests.exe: CMakeFiles/labTests.dir/build.make
+labTests.exe: CMakeFiles/labTests.dir/linklibs.rsp
+labTests.exe: CMakeFiles/labTests.dir/objects1.rsp
+labTests.exe: CMakeFiles/labTests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable labTests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\labTests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/labTests.dir/build: ../build/labTests.exe
+CMakeFiles/labTests.dir/build: labTests.exe
 
 .PHONY : CMakeFiles/labTests.dir/build
 

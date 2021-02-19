@@ -143,6 +143,19 @@ lab1_algorithm/fast:
 .PHONY : lab1_algorithm/fast
 
 #=============================================================================
+# Target rules for targets named labTests
+
+# Build rule for target.
+labTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 labTests
+.PHONY : labTests
+
+# fast build rule for target.
+labTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/build
+.PHONY : labTests/fast
+
+#=============================================================================
 # Target rules for targets named listTest
 
 # Build rule for target.
@@ -181,209 +194,245 @@ queueTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/build
 .PHONY : queueTest/fast
 
-list.obj: list.c.obj
+src/list/list.obj: src/list/list.c.obj
 
-.PHONY : list.obj
-
-# target to build an object file
-list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/list.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/list.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/list.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/list.c.obj
-.PHONY : list.c.obj
-
-list.i: list.c.i
-
-.PHONY : list.i
-
-# target to preprocess a source file
-list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/list.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/list.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/list.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/list.c.i
-.PHONY : list.c.i
-
-list.s: list.c.s
-
-.PHONY : list.s
-
-# target to generate assembly for a file
-list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/list.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/list.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/list.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/list.c.s
-.PHONY : list.c.s
-
-listTest.obj: listTest.c.obj
-
-.PHONY : listTest.obj
+.PHONY : src/list/list.obj
 
 # target to build an object file
-listTest.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/listTest.c.obj
-.PHONY : listTest.c.obj
+src/list/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/list/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/list/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/src/list/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/list/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/list/list.c.obj
+.PHONY : src/list/list.c.obj
 
-listTest.i: listTest.c.i
+src/list/list.i: src/list/list.c.i
 
-.PHONY : listTest.i
+.PHONY : src/list/list.i
 
 # target to preprocess a source file
-listTest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/listTest.c.i
-.PHONY : listTest.c.i
+src/list/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/list/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/list/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/src/list/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/list/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/list/list.c.i
+.PHONY : src/list/list.c.i
 
-listTest.s: listTest.c.s
+src/list/list.s: src/list/list.c.s
 
-.PHONY : listTest.s
+.PHONY : src/list/list.s
 
 # target to generate assembly for a file
-listTest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/listTest.c.s
-.PHONY : listTest.c.s
+src/list/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/list/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/list/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/src/list/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/list/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/list/list.c.s
+.PHONY : src/list/list.c.s
 
-main.obj: main.c.obj
+src/main.obj: src/main.c.obj
 
-.PHONY : main.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/main.c.obj
-.PHONY : main.c.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-main.i: main.c.i
+src/main.i: src/main.c.i
 
-.PHONY : main.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
+src/main.s: src/main.c.s
 
-.PHONY : main.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-queue.obj: queue.c.obj
+src/queue/queue.obj: src/queue/queue.c.obj
 
-.PHONY : queue.obj
+.PHONY : src/queue/queue.obj
 
 # target to build an object file
-queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queue.c.obj
-.PHONY : queue.c.obj
+src/queue/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/queue/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/queue/queue.c.obj
+.PHONY : src/queue/queue.c.obj
 
-queue.i: queue.c.i
+src/queue/queue.i: src/queue/queue.c.i
 
-.PHONY : queue.i
+.PHONY : src/queue/queue.i
 
 # target to preprocess a source file
-queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queue.c.i
-.PHONY : queue.c.i
+src/queue/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/queue/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/queue/queue.c.i
+.PHONY : src/queue/queue.c.i
 
-queue.s: queue.c.s
+src/queue/queue.s: src/queue/queue.c.s
 
-.PHONY : queue.s
+.PHONY : src/queue/queue.s
 
 # target to generate assembly for a file
-queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queue.c.s
-.PHONY : queue.c.s
+src/queue/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/queue/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/queue/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/queue/queue.c.s
+.PHONY : src/queue/queue.c.s
 
-queueTest.obj: queueTest.c.obj
+src/stack/stack.obj: src/stack/stack.c.obj
 
-.PHONY : queueTest.obj
+.PHONY : src/stack/stack.obj
 
 # target to build an object file
-queueTest.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queueTest.c.obj
-.PHONY : queueTest.c.obj
+src/stack/stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/stack/stack.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/stack/stack.c.obj
+.PHONY : src/stack/stack.c.obj
 
-queueTest.i: queueTest.c.i
+src/stack/stack.i: src/stack/stack.c.i
 
-.PHONY : queueTest.i
+.PHONY : src/stack/stack.i
 
 # target to preprocess a source file
-queueTest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queueTest.c.i
-.PHONY : queueTest.c.i
+src/stack/stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/stack/stack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/stack/stack.c.i
+.PHONY : src/stack/stack.c.i
 
-queueTest.s: queueTest.c.s
+src/stack/stack.s: src/stack/stack.c.s
 
-.PHONY : queueTest.s
+.PHONY : src/stack/stack.s
 
 # target to generate assembly for a file
-queueTest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queueTest.c.s
-.PHONY : queueTest.c.s
+src/stack/stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/src/stack/stack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/stack/stack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/stack/stack.c.s
+.PHONY : src/stack/stack.c.s
 
-stack.obj: stack.c.obj
+src/tests/labTests.obj: src/tests/labTests.c.obj
 
-.PHONY : stack.obj
+.PHONY : src/tests/labTests.obj
 
 # target to build an object file
-stack.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stack.c.obj
-.PHONY : stack.c.obj
+src/tests/labTests.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/tests/labTests.c.obj
+.PHONY : src/tests/labTests.c.obj
 
-stack.i: stack.c.i
+src/tests/labTests.i: src/tests/labTests.c.i
 
-.PHONY : stack.i
+.PHONY : src/tests/labTests.i
 
 # target to preprocess a source file
-stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stack.c.i
-.PHONY : stack.c.i
+src/tests/labTests.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/tests/labTests.c.i
+.PHONY : src/tests/labTests.c.i
 
-stack.s: stack.c.s
+src/tests/labTests.s: src/tests/labTests.c.s
 
-.PHONY : stack.s
+.PHONY : src/tests/labTests.s
 
 # target to generate assembly for a file
-stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stack.c.s
-.PHONY : stack.c.s
+src/tests/labTests.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labTests.dir\build.make CMakeFiles/labTests.dir/src/tests/labTests.c.s
+.PHONY : src/tests/labTests.c.s
 
-stackTest.obj: stackTest.c.obj
+src/tests/listTest.obj: src/tests/listTest.c.obj
 
-.PHONY : stackTest.obj
+.PHONY : src/tests/listTest.obj
 
 # target to build an object file
-stackTest.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stackTest.c.obj
-.PHONY : stackTest.c.obj
+src/tests/listTest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/src/tests/listTest.c.obj
+.PHONY : src/tests/listTest.c.obj
 
-stackTest.i: stackTest.c.i
+src/tests/listTest.i: src/tests/listTest.c.i
 
-.PHONY : stackTest.i
+.PHONY : src/tests/listTest.i
 
 # target to preprocess a source file
-stackTest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stackTest.c.i
-.PHONY : stackTest.c.i
+src/tests/listTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/src/tests/listTest.c.i
+.PHONY : src/tests/listTest.c.i
 
-stackTest.s: stackTest.c.s
+src/tests/listTest.s: src/tests/listTest.c.s
 
-.PHONY : stackTest.s
+.PHONY : src/tests/listTest.s
 
 # target to generate assembly for a file
-stackTest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stackTest.c.s
-.PHONY : stackTest.c.s
+src/tests/listTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/src/tests/listTest.c.s
+.PHONY : src/tests/listTest.c.s
+
+src/tests/queueTest.obj: src/tests/queueTest.c.obj
+
+.PHONY : src/tests/queueTest.obj
+
+# target to build an object file
+src/tests/queueTest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/tests/queueTest.c.obj
+.PHONY : src/tests/queueTest.c.obj
+
+src/tests/queueTest.i: src/tests/queueTest.c.i
+
+.PHONY : src/tests/queueTest.i
+
+# target to preprocess a source file
+src/tests/queueTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/tests/queueTest.c.i
+.PHONY : src/tests/queueTest.c.i
+
+src/tests/queueTest.s: src/tests/queueTest.c.s
+
+.PHONY : src/tests/queueTest.s
+
+# target to generate assembly for a file
+src/tests/queueTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/src/tests/queueTest.c.s
+.PHONY : src/tests/queueTest.c.s
+
+src/tests/stackTest.obj: src/tests/stackTest.c.obj
+
+.PHONY : src/tests/stackTest.obj
+
+# target to build an object file
+src/tests/stackTest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/tests/stackTest.c.obj
+.PHONY : src/tests/stackTest.c.obj
+
+src/tests/stackTest.i: src/tests/stackTest.c.i
+
+.PHONY : src/tests/stackTest.i
+
+# target to preprocess a source file
+src/tests/stackTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/tests/stackTest.c.i
+.PHONY : src/tests/stackTest.c.i
+
+src/tests/stackTest.s: src/tests/stackTest.c.s
+
+.PHONY : src/tests/stackTest.s
+
+# target to generate assembly for a file
+src/tests/stackTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/src/tests/stackTest.c.s
+.PHONY : src/tests/stackTest.c.s
 
 # Help Target
 help:
@@ -394,30 +443,34 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab1_algorithm
+	@echo ... labTests
 	@echo ... listTest
 	@echo ... queueTest
 	@echo ... stackTest
-	@echo ... list.obj
-	@echo ... list.i
-	@echo ... list.s
-	@echo ... listTest.obj
-	@echo ... listTest.i
-	@echo ... listTest.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... queue.obj
-	@echo ... queue.i
-	@echo ... queue.s
-	@echo ... queueTest.obj
-	@echo ... queueTest.i
-	@echo ... queueTest.s
-	@echo ... stack.obj
-	@echo ... stack.i
-	@echo ... stack.s
-	@echo ... stackTest.obj
-	@echo ... stackTest.i
-	@echo ... stackTest.s
+	@echo ... src/list/list.obj
+	@echo ... src/list/list.i
+	@echo ... src/list/list.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/queue/queue.obj
+	@echo ... src/queue/queue.i
+	@echo ... src/queue/queue.s
+	@echo ... src/stack/stack.obj
+	@echo ... src/stack/stack.i
+	@echo ... src/stack/stack.s
+	@echo ... src/tests/labTests.obj
+	@echo ... src/tests/labTests.i
+	@echo ... src/tests/labTests.s
+	@echo ... src/tests/listTest.obj
+	@echo ... src/tests/listTest.i
+	@echo ... src/tests/listTest.s
+	@echo ... src/tests/queueTest.obj
+	@echo ... src/tests/queueTest.i
+	@echo ... src/tests/queueTest.s
+	@echo ... src/tests/stackTest.obj
+	@echo ... src/tests/stackTest.i
+	@echo ... src/tests/stackTest.s
 .PHONY : help
 
 

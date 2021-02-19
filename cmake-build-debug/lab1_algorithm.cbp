@@ -67,6 +67,46 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="labTests">
+				<Option output="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/labTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 labTests"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="labTests/fast">
+				<Option output="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/labTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 labTests/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="listTest">
 				<Option output="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/listTest.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug"/>
@@ -198,44 +238,53 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c">
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.c">
 			<Option target="lab1_algorithm"/>
+			<Option target="labTests"/>
 			<Option target="listTest"/>
 			<Option target="stackTest"/>
 			<Option target="queueTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h">
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/list/list.h">
 			<Option target="lab1_algorithm"/>
+			<Option target="labTests"/>
 			<Option target="listTest"/>
 			<Option target="stackTest"/>
 			<Option target="queueTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/listTest.c">
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/main.c">
+			<Option target="lab1_algorithm"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/queue/queue.c">
+			<Option target="lab1_algorithm"/>
+			<Option target="labTests"/>
+			<Option target="queueTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/queue/queue.h">
+			<Option target="lab1_algorithm"/>
+			<Option target="labTests"/>
+			<Option target="queueTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/stack/stack.c">
+			<Option target="lab1_algorithm"/>
+			<Option target="labTests"/>
+			<Option target="stackTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/stack/stack.h">
+			<Option target="lab1_algorithm"/>
+			<Option target="labTests"/>
+			<Option target="stackTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/labTests.c">
+			<Option target="labTests"/>
+		</Unit>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/listTest.c">
 			<Option target="listTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/main.c">
-			<Option target="lab1_algorithm"/>
-		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.c">
-			<Option target="lab1_algorithm"/>
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/queueTest.c">
 			<Option target="queueTest"/>
 		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.h">
-			<Option target="lab1_algorithm"/>
-			<Option target="queueTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queueTest.c">
-			<Option target="queueTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.c">
-			<Option target="lab1_algorithm"/>
-			<Option target="stackTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.h">
-			<Option target="lab1_algorithm"/>
-			<Option target="stackTest"/>
-		</Unit>
-		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stackTest.c">
+		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/src/tests/stackTest.c">
 			<Option target="stackTest"/>
 		</Unit>
 		<Unit filename="C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/CMakeLists.txt">

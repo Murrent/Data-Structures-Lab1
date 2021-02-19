@@ -1,5 +1,6 @@
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/lab1_algorithm.dir
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/labTests.dir
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/listTest.dir
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/stackTest.dir
 C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/cmake-build-debug/CMakeFiles/queueTest.dir

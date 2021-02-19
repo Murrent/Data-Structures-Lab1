@@ -3,10 +3,12 @@ project(lab1_algorithm C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(lab1_algorithm main.c list.h list.c stack.h stack.c queue.h queue.c)
+add_executable(lab1_algorithm src/main.c src/list/list.h src/list/list.c src/stack/stack.h src/stack/stack.c src/queue/queue.h src/queue/queue.c)
 
-add_executable(listTest listTest.c list.h list.c)
+add_executable(listTest src/tests/listTest.c src/list/list.h src/list/list.c)
 
-add_executable(stackTest stackTest.c list.h list.c stack.h stack.c)
+add_executable(stackTest src/tests/stackTest.c src/list/list.h src/list/list.c src/stack/stack.h src/stack/stack.c)
 
-add_executable(queueTest queueTest.c list.h list.c queue.h queue.c)
+add_executable(queueTest src/tests/queueTest.c src/list/list.h src/list/list.c src/queue/queue.h src/queue/queue.c)
+
+add_executable(labTests src/tests/labTests.c src/list/list.h src/list/list.c src/stack/stack.h src/stack/stack.c src/queue/queue.h src/queue/queue.c)

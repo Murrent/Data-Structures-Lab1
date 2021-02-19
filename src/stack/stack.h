@@ -5,7 +5,7 @@
 #ifndef LAB1_ALGORITHM_STACK_H
 #define LAB1_ALGORITHM_STACK_H
 
-#include "list.h"
+#include "../list/list.h"
 
 typedef struct stack_
 {
