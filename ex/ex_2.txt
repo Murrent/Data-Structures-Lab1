@@ -1,0 +1,37 @@
+Implementation of linked list is in list.h and list.c.
+list.h defines the structure of a node and a list, aswell as the 
+functions we want to call outside list.c. list.c then defines what 
+the functions will do.
+
+In the test we defined two linked lists (list1, list2) and performed 
+10 tests to verify that out functions returned the expected value.
+If we get our expected value we print a success message.
+Here are the tests we performed:
+	What are the minimum and maximum of list1?
+	What are the minimum and maximum of list2?
+	What is the successor and predecessor of the node with key 5 in list1?
+	What is the successor and predecessor of the node with key 9 in list2?
+	What is the key of the predecessor in list2 of the maximum of list1?
+	What is the key of the predecessor in list1 of the maximum of list2?
+	
+	All our tests succeeded 
+
+To execute this file we used CMakeLists.txt
+Our CMakeLists.txt looked like this:
+
+	cmake_minimum_required(VERSION 3.17)
+	project(lab1_algorithm C)
+
+	set(CMAKE_C_STANDARD 99)
+
+	add_executable(listTest src/tests/listTest.c src/list/list.h src/list/list.c)
+
+This will create a .exe file. listTest.c has the main and test functions.
+
+Our final answers were: 
+	What are the minimum and maximum of list1? min = 1, max = 10
+	What are the minimum and maximum of list2? min = 1, max = 9
+	What is the successor and predecessor of the node with key 5 in list1? successor = 7, predecessor = 3
+	What is the successor and predecessor of the node with key 9 in list2? successor = NULL, predecessor = 6
+	What is the key of the predecessor in list2 of the maximum of list1? predecessor = 9
+	What is the key of the predecessor in list1 of the maximum of list2? predecessor = 8

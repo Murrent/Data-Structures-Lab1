@@ -1,0 +1,58 @@
+Lab test
+This exercise was given during the lab.
+
+We did a few tests on linked list, stack and queue.
+
+The given exercise was:
+create lis {1, 3, 2}
+printlist
+delete(pred(2))
+preintlist
+delete(pred(1))
+printlist
+--------------------------------------------
+create empty queue Q
+enqueue(Q,1)
+print
+print Q
+enqueue(Q,2)
+print Q
+create empty stack S
+push(dequeue(Q))
+print S
+
+To execute this test we used CMakeLists.txt
+Our CMakeLists.txt looked like this:
+
+	cmake_minimum_required(VERSION 3.17)
+	project(lab1_algorithm C)
+	
+	set(CMAKE_C_STANDARD 99)
+	
+	add_executable(labTests src/tests/labTests.c src/list/list.h src/list/list.c src/stack/stack.h src/stack/stack.c src/queue/queue.h src/queue/queue.c)
+
+This will create a labTests.exe file which will execute labTests.c's main function.
+
+The output of this will be:
+Lab Tests
+list
+2
+3
+1
+
+2
+3
+
+2
+3
+queue
+1
+
+1
+2
+
+2
+stack
+1
+
+Process finished with exit code 0

@@ -1,0 +1,11 @@
+We compared our results in exercise 2 with André Falk Edetun och Kevin Güvenal.
+
+Our results were: 
+	What are the minimum and maximum of list1? min = 1, max = 10
+	What are the minimum and maximum of list2? min = 1, max = 9
+	What is the successor and predecessor of the node with key 5 in list1? successor = 7, predecessor = 3
+	What is the successor and predecessor of the node with key 9 in list2? successor = NULL, predecessor = 6
+	What is the key of the predecessor in list2 of the maximum of list1? predecessor = 9
+	What is the key of the predecessor in list1 of the maximum of list2? predecessor = 8
+
+After running their code we saw that our results were identical.
