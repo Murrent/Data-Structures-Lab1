@@ -73,6 +73,9 @@ CMAKE_BINARY_DIR = C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-deb
 
 # The main recursive "all" target.
 all: CMakeFiles/lab1_algorithm.dir/all
+all: CMakeFiles/listTest.dir/all
+all: CMakeFiles/stackTest.dir/all
+all: CMakeFiles/queueTest.dir/all
 
 .PHONY : all
 
@@ -83,6 +86,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/lab1_algorithm.dir/clean
+clean: CMakeFiles/listTest.dir/clean
+clean: CMakeFiles/stackTest.dir/clean
+clean: CMakeFiles/queueTest.dir/clean
 
 .PHONY : clean
 
@@ -112,6 +118,87 @@ lab1_algorithm: CMakeFiles/lab1_algorithm.dir/rule
 CMakeFiles/lab1_algorithm.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/clean
 .PHONY : CMakeFiles/lab1_algorithm.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/listTest.dir
+
+# All Build rule for target.
+CMakeFiles/listTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=6,7,8 "Built target listTest"
+.PHONY : CMakeFiles/listTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/listTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/listTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/listTest.dir/rule
+
+# Convenience name for target.
+listTest: CMakeFiles/listTest.dir/rule
+
+.PHONY : listTest
+
+# clean rule for target.
+CMakeFiles/listTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/clean
+.PHONY : CMakeFiles/listTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stackTest.dir
+
+# All Build rule for target.
+CMakeFiles/stackTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16 "Built target stackTest"
+.PHONY : CMakeFiles/stackTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stackTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stackTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/stackTest.dir/rule
+
+# Convenience name for target.
+stackTest: CMakeFiles/stackTest.dir/rule
+
+.PHONY : stackTest
+
+# clean rule for target.
+CMakeFiles/stackTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/clean
+.PHONY : CMakeFiles/stackTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queueTest.dir
+
+# All Build rule for target.
+CMakeFiles/queueTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12 "Built target queueTest"
+.PHONY : CMakeFiles/queueTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queueTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/queueTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\GitHub\Lab1SM_Clion\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/queueTest.dir/rule
+
+# Convenience name for target.
+queueTest: CMakeFiles/queueTest.dir/rule
+
+.PHONY : queueTest
+
+# clean rule for target.
+CMakeFiles/queueTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/clean
+.PHONY : CMakeFiles/queueTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

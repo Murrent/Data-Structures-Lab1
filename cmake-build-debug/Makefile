@@ -142,6 +142,45 @@ lab1_algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/build
 .PHONY : lab1_algorithm/fast
 
+#=============================================================================
+# Target rules for targets named listTest
+
+# Build rule for target.
+listTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 listTest
+.PHONY : listTest
+
+# fast build rule for target.
+listTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/build
+.PHONY : listTest/fast
+
+#=============================================================================
+# Target rules for targets named stackTest
+
+# Build rule for target.
+stackTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stackTest
+.PHONY : stackTest
+
+# fast build rule for target.
+stackTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/build
+.PHONY : stackTest/fast
+
+#=============================================================================
+# Target rules for targets named queueTest
+
+# Build rule for target.
+queueTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 queueTest
+.PHONY : queueTest
+
+# fast build rule for target.
+queueTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/build
+.PHONY : queueTest/fast
+
 list.obj: list.c.obj
 
 .PHONY : list.obj
@@ -149,6 +188,9 @@ list.obj: list.c.obj
 # target to build an object file
 list.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/list.c.obj
 .PHONY : list.c.obj
 
 list.i: list.c.i
@@ -158,6 +200,9 @@ list.i: list.c.i
 # target to preprocess a source file
 list.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/list.c.i
 .PHONY : list.c.i
 
 list.s: list.c.s
@@ -167,7 +212,37 @@ list.s: list.c.s
 # target to generate assembly for a file
 list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/list.c.s
 .PHONY : list.c.s
+
+listTest.obj: listTest.c.obj
+
+.PHONY : listTest.obj
+
+# target to build an object file
+listTest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/listTest.c.obj
+.PHONY : listTest.c.obj
+
+listTest.i: listTest.c.i
+
+.PHONY : listTest.i
+
+# target to preprocess a source file
+listTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/listTest.c.i
+.PHONY : listTest.c.i
+
+listTest.s: listTest.c.s
+
+.PHONY : listTest.s
+
+# target to generate assembly for a file
+listTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listTest.dir\build.make CMakeFiles/listTest.dir/listTest.c.s
+.PHONY : listTest.c.s
 
 main.obj: main.c.obj
 
@@ -203,6 +278,7 @@ queue.obj: queue.c.obj
 # target to build an object file
 queue.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queue.c.obj
 .PHONY : queue.c.obj
 
 queue.i: queue.c.i
@@ -212,6 +288,7 @@ queue.i: queue.c.i
 # target to preprocess a source file
 queue.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queue.c.i
 .PHONY : queue.c.i
 
 queue.s: queue.c.s
@@ -221,7 +298,35 @@ queue.s: queue.c.s
 # target to generate assembly for a file
 queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queue.c.s
 .PHONY : queue.c.s
+
+queueTest.obj: queueTest.c.obj
+
+.PHONY : queueTest.obj
+
+# target to build an object file
+queueTest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queueTest.c.obj
+.PHONY : queueTest.c.obj
+
+queueTest.i: queueTest.c.i
+
+.PHONY : queueTest.i
+
+# target to preprocess a source file
+queueTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queueTest.c.i
+.PHONY : queueTest.c.i
+
+queueTest.s: queueTest.c.s
+
+.PHONY : queueTest.s
+
+# target to generate assembly for a file
+queueTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\queueTest.dir\build.make CMakeFiles/queueTest.dir/queueTest.c.s
+.PHONY : queueTest.c.s
 
 stack.obj: stack.c.obj
 
@@ -230,6 +335,7 @@ stack.obj: stack.c.obj
 # target to build an object file
 stack.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stack.c.obj
 .PHONY : stack.c.obj
 
 stack.i: stack.c.i
@@ -239,6 +345,7 @@ stack.i: stack.c.i
 # target to preprocess a source file
 stack.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stack.c.i
 .PHONY : stack.c.i
 
 stack.s: stack.c.s
@@ -248,7 +355,35 @@ stack.s: stack.c.s
 # target to generate assembly for a file
 stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab1_algorithm.dir\build.make CMakeFiles/lab1_algorithm.dir/stack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stack.c.s
 .PHONY : stack.c.s
+
+stackTest.obj: stackTest.c.obj
+
+.PHONY : stackTest.obj
+
+# target to build an object file
+stackTest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stackTest.c.obj
+.PHONY : stackTest.c.obj
+
+stackTest.i: stackTest.c.i
+
+.PHONY : stackTest.i
+
+# target to preprocess a source file
+stackTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stackTest.c.i
+.PHONY : stackTest.c.i
+
+stackTest.s: stackTest.c.s
+
+.PHONY : stackTest.s
+
+# target to generate assembly for a file
+stackTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackTest.dir\build.make CMakeFiles/stackTest.dir/stackTest.c.s
+.PHONY : stackTest.c.s
 
 # Help Target
 help:
@@ -259,18 +394,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab1_algorithm
+	@echo ... listTest
+	@echo ... queueTest
+	@echo ... stackTest
 	@echo ... list.obj
 	@echo ... list.i
 	@echo ... list.s
+	@echo ... listTest.obj
+	@echo ... listTest.i
+	@echo ... listTest.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... queue.obj
 	@echo ... queue.i
 	@echo ... queue.s
+	@echo ... queueTest.obj
+	@echo ... queueTest.i
+	@echo ... queueTest.s
 	@echo ... stack.obj
 	@echo ... stack.i
 	@echo ... stack.s
+	@echo ... stackTest.obj
+	@echo ... stackTest.i
+	@echo ... stackTest.s
 .PHONY : help
 
 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.c
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+stdlib.h
+-
+stdio.h
+-
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.c
+queue.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.h
+stdlib.h
+-
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.h
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queueTest.c
+stdio.h
+-
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+stack.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.h
+queue.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/queue.h
+
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/stack.h
+list.h
+C:/Users/Martin/Documents/GitHub/Lab1SM_Clion/list.h
+

@@ -152,9 +152,9 @@ void testQueue() {
 void labTests() {
     printf("Lab Tests\nlist\n");
     List* list = createList();
-    insert(list, createNode(2));
-    insert(list, createNode(3));
     insert(list, createNode(1));
+    insert(list, createNode(3));
+    insert(list, createNode(2));
     printList(list);
     detachNode(list, predecessor(list, search(list, 2)));
     printf("\n");
